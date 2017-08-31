@@ -27,3 +27,7 @@ oa index own own_R1.fastq own_R2.fastq
 oa buildgraph --probes protChloroArabidopsis own own.chl
 oa unfold own own.chl
 ```
+
+## License
+This repository is available under [MIT License](LICENSE).
+The ORG.Asm is distributed under a separate license, see https://git.metabarcoding.org/org-asm/org-asm
