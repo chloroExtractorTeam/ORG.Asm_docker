@@ -1,7 +1,7 @@
 # ORG.Asm_docker
 A docker solution for ORG.Asm (https://git.metabarcoding.org/org-asm/org-asm)
 
-As installation of the Organelle Assembler ORG.Asm consistently failed on basically all machines I tried here is a minimal docker image which successfully installs docker.
+As installation of the Organelle Assembler ORG.Asm consistently failed on basically every machine I tried, here is a minimal docker image which successfully installs it in a fresh container.
 
 To use it do the following:
 
