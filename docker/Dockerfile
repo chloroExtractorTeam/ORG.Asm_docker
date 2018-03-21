@@ -8,3 +8,5 @@ RUN git clone https://git.metabarcoding.org/org-asm/org-asm.git
 RUN cd /org-asm && python3 setup.py --serenity install
 RUN ln -s /org-asm/ORG.asm-1.0.00-alpha*/bin/oa /usr/bin/oa
 RUN ln -s /org-asm/ORG.asm-1.0.00-alpha*/bin/orgasmi /usr/bin/orgasmi
+VOLUME /data
+WORKDIR /data
